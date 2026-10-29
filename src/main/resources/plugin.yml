@@ -1,0 +1,20 @@
+name: Skrzynki
+version: 1.0
+main: pl.skrzynki.Skrzynki
+api-version: "1.21"
+commands:
+  skrzynkastworz:
+    usage: /skrzynkastworz <nazwa>
+    permission: skrzynki.admin
+  skrzynkaedytuj:
+    usage: /skrzynkaedytuj <nazwa>
+    permission: skrzynki.admin
+  skrzynkadaj:
+    usage: /skrzynkadaj <gracz> <nazwa>
+    permission: skrzynki.admin
+  skrzynkausun:
+    usage: /skrzynkausun <nazwa>
+    permission: skrzynki.admin
+permissions:
+  skrzynki.admin:
+    default: op
